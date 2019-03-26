@@ -30,7 +30,7 @@ def makecarnum(str):
         pos.append(rect)
     imshow(im)
     show()
-    # imsave(str+'.png',im)
+    imsave("img/"+str+'.png',im)
     # np.savetxt(str+'.txt',pos)#保存左上和右下
 
 
@@ -41,6 +41,7 @@ chinachars=[u"京", u"沪", u"津", u"渝", u"冀", u"晋", u"蒙", u"辽", u"�
              u"琼", u"川", u"贵", u"云", u"藏", u"陕", u"甘", u"青", u"宁", u"新",u"港",u"学",u"使",u"警",u"澳",u"挂",u"军",u"北",u"南",u"广",u"沈",u"兰",u"成",u"济",u"海",u"民",u"航",u"空"]
 print(np.random.randint(0, 2))
 str=''
+print(len(chars),len(chinachars))
 for i in range(7):
     if i==0:
         str=str+chinachars[np.random.randint(0, 50)]
