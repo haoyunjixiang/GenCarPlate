@@ -1,2 +1,2 @@
 # GenCarPlate
-Generate car plate images
+generate Chinese car plate images
